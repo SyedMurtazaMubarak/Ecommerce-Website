@@ -1,0 +1,187 @@
+.productgrid {
+  margin-top: -180px;
+}
+.top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  padding: 120px;
+  background-color: #fff;
+}
+.top h2 {
+  font-weight: 500;
+  color: #2d3a4b;
+  font-size: 30px;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+.top p {
+  display: inline-block;
+  max-width: 800px;
+  font-size: 14px;
+  line-height: 24px;
+  color: #666666;
+  font-style: italic;
+  font-family: "Merriweather", serif;
+}
+
+.product-section {
+  padding: 40px;
+  background-color: #ffffff;
+  font-family: "Poppins", sans-serif;
+}
+
+.product-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+
+.product-tabs span {
+  cursor: pointer;
+  color: #444;
+  position: relative;
+  transition: all 0.3s ease;
+}
+.product-tabs .highlight-tab {
+  background: #ffe600;
+  padding: 4px 8px;
+  font-weight: 600;
+  border-radius: 4px;
+  color: #111;
+}
+
+.product-card {
+  position: relative;
+  cursor: pointer;
+
+  overflow: hidden;
+}
+
+.product-card img {
+  transition: transform 0.3s ease-in-out;
+}
+.product-card:hover img {
+  transform: scale(1.05);
+}
+
+.product-card:hover img {
+  transform: scale(1.05);
+}
+
+.product-tabs span {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.highlight-tab {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(305px, 1fr));
+  gap: 0px;
+}
+
+.product-card h4 {
+  font-size: 1.2rem;
+  padding-right: 74px;
+}
+
+.product-card p {
+  font-size: 1rem;
+  color: gray;
+}
+
+.original-price {
+  text-decoration: line-through;
+  color: #999;
+}
+
+.discounted-price {
+  color: green;
+}
+.product-card {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  transition: opacity 0.3s ease;
+}
+
+.product-card .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 75%;
+  background: rgba(255, 255, 255, 0.5);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.product-card .overlay .icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #2d3a4b;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+  width: 75px;
+  opacity: 1;
+}
+.icon:hover {
+  opacity: 1;
+}
+
+.product-card .overlay .add-to-cart {
+  position: absolute;
+  bottom: -25px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  left: 0;
+  width: 100%;
+  height: 45px;
+  background-color: #2d3a4b;
+  color: white;
+  text-align: center;
+  line-height: 45px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.add-to-cart:hover {
+  background-color: #fff;
+  padding: 10px 20px;
+  margin-top: 220px;
+  color: #2d3a4b;
+  width: 100%;
+  height: 45px;
+  cursor: pointer;
+  border: none;
+}
+
+.product-card:hover .overlay {
+  opacity: 1;
+}
+
+.product-card:hover img {
+  opacity: 0.5;
+}
+.product-card .overlay .add-to-cart:hover {
+  background-color: #ffffff;
+  color: #2d3a4b;
+}

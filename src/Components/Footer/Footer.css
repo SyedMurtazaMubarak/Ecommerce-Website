@@ -1,0 +1,106 @@
+.footer {
+  background-color: #111;
+  color: #aaa;
+  padding-top: 100px;
+
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 40px;
+  flex: 1;
+}
+
+.footer-column {
+  flex: 1;
+
+  min-width: 200px;
+}
+
+.footer-column h2.logo {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.footer-column .yellow {
+  color: #f5c518;
+}
+
+.footer-column h4 {
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  margin: 0;
+}
+
+.footer-column li {
+  margin-bottom: 10px;
+  cursor: pointer;
+  color: #ccc;
+}
+
+.footer-column li:hover {
+  color: #fff;
+}
+
+.footer-column p {
+  margin: 8px 0;
+  display: flex;
+  align-items: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.icon5 {
+  margin-right: 10px;
+  color: #f5c518;
+  width: 20px;
+}
+
+.highlight {
+  color: #f5c518;
+}
+
+.footer-bottom {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 14px;
+  color: #aaa;
+  padding-top: 20px;
+  border-top: 1px solid #222;
+}
+
+.footer-bottom-content {
+  display: inline-flex;
+  gap: 500px;
+  align-items: center;
+}
+
+.payment-icons {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.payment-icons img {
+  width: 300px;
+}

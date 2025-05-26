@@ -1,0 +1,90 @@
+.newscontainer {
+  margin-left: 52.5px;
+  margin-top: 50px;
+  margin-right: 52.5px;
+  margin-bottom: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.newsletter-section {
+  display: flex;
+  justify-content: space-between;
+  background-color: #111820;
+  padding: 150px 100px;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+}
+
+.newsletter-left {
+  flex: 1;
+  max-width: 50%;
+}
+
+.newsletter-text {
+  font-size: 22px;
+  line-height: 1.7;
+  margin-bottom: 40px;
+}
+
+.social-icons1 {
+  font-size: 16px;
+}
+
+.social-icons1 i {
+  margin-right: 15px;
+  color: white !important;
+  outline: 1px;
+  cursor: pointer;
+}
+.social-icons1 i:hover {
+  margin-right: 15px;
+  color: #ffe115;
+  cursor: pointer;
+}
+
+.newsletter-right {
+  flex: 1;
+  max-width: 45%;
+}
+
+.newsletter-right h2 {
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+.sub-text {
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #b0b0b0;
+}
+
+.subscribe-form {
+  display: flex;
+  margin-top: 10px;
+}
+
+.subscribe-form input {
+  flex: 1;
+  padding: 15px;
+  font-size: 14px;
+  border: 1px solid #333;
+  background-color: #0e1319;
+  color: white;
+  border-right: none;
+  height: 50px;
+}
+.butn {
+  width: 160px !important;
+}
+.subscribe-form button {
+  padding: 0 25px;
+  background-color: #2d2f31;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.subscribe-form button:hover {
+  background-color: #444;
+}

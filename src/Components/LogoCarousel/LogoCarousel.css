@@ -1,0 +1,49 @@
+.carousel-container {
+  text-align: center;
+  margin: 40px auto;
+  max-width: 100%;
+  padding-bottom: 140px;
+}
+
+.logo-row {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  transition: transform 0.5s ease-in-out;
+}
+
+.logo-item img {
+  width: 180px;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+}
+
+.logo-item img:hover {
+  opacity: 1;
+}
+
+.dots {
+  margin-top: 20px;
+}
+
+.dot {
+  width: 8px !important;
+  height: 4px;
+  margin: 0 5px;
+  background-color: lightgray;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: #f5c518;
+  width: 24px !important;
+  height: 4px;
+  margin: 0 5px;
+
+  display: inline-block;
+  cursor: pointer;
+}

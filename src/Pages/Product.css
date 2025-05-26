@@ -1,0 +1,219 @@
+.product-container {
+  display: flex;
+  gap: 40px;
+  padding: 50px 80px;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.product-left {
+  flex: 1;
+}
+.main-image {
+  display: flex;
+  justify-content: center;
+}
+.main-image img {
+  width: 500px;
+  border-radius: 6px;
+  object-fit: contain;
+}
+
+.thumbnail-row {
+  display: flex;
+  gap: 16px;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.thumbnail-row img {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  border: 2px solid transparent;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.thumbnail-row img:hover {
+  border-color: #222;
+}
+
+.product-right {
+  flex: 1;
+}
+
+.product-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.product-hr {
+  height: 3px;
+  width: 30px;
+  background: #2d3a4b;
+}
+
+.rating-stars {
+  color: #f8b700;
+  margin: 5px 0 15px;
+}
+
+.product-price {
+  font-size: 22px;
+  font-weight: bold;
+  z-index: 9;
+  display: inline-block;
+  width: 100%;
+  text-align: left;
+  margin-top: 25px;
+  color: #2d3a4b;
+}
+
+.currency {
+  font-size: 12px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.brand-category {
+  display: flex;
+  gap: 40px;
+  margin: 15px 0;
+  font-size: 14px;
+  color: #666;
+}
+
+.product-description {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.6;
+  margin: 20px 0;
+  max-width: 480px;
+}
+
+.quantity-cart {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+  align-items: stretch;
+}
+
+.quantity-control {
+  display: flex;
+  border: 1px solid #ccc;
+  width: 25%;
+  height: 55px;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.quantity-control button {
+  width: 56px;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.05);
+  height: 53px;
+}
+
+.quantity-control span {
+  width: 100px;
+  line-height: 40px;
+  text-align: center;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+
+.add-to-cart1 {
+  background-color: #2d3a4b;
+  color: white;
+  padding: 10px 28px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  width: 25%;
+  height: 55px;
+}
+.add-to-cart1:hover {
+  color: #2d3a4b;
+  background-color: white;
+  padding: 10px 28px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  width: 25%;
+  height: 55px;
+}
+
+.wishlist {
+  font-size: 14px;
+  color: #444;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.share p {
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.social-icons2 i {
+  font-size: 18px;
+  margin-right: 16px;
+  cursor: pointer;
+  color: #2d3a4b;
+  outline: #2d3a4b;
+}
+.social-icons2 i:hover {
+  font-size: 18px;
+  margin-right: 16px;
+  cursor: pointer;
+  color: yellow;
+}
+.divider {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 20px 0;
+  width: 55%;
+}
+
+.thumbnail-gallery {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 12px;
+  position: relative;
+}
+
+.thumbnails {
+  display: flex;
+  gap: 16px;
+}
+
+.thumbnail-gallery img {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 4px;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: border 0.2s ease;
+}
+
+.thumbnail-gallery img.active {
+  border-color: #000;
+}
+
+.arrow {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.arrow:hover {
+  color: #000;
+}

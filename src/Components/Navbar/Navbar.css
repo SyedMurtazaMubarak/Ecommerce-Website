@@ -1,0 +1,123 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  padding: 16px;
+  box-shadow: 0 1px 3px -2px black;
+  z-index: 1;
+  background: white;
+  position: relative;
+}
+.nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 0px;
+}
+.nav-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 30px;
+  color: #2d3a4b;
+  font-size: 14px;
+  font-weight: 500;
+  padding-left: 600px;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+}
+
+.nav-login-cart {
+  display: flex;
+  list-style: none;
+  margin-left: -180px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.userbtn {
+  display: inline-flex;
+  padding: 5px;
+  border: 1px solid #2d3a4b;
+  border-radius: 100%;
+  background-color: transparent;
+  transition: background-color 0.3s;
+}
+.svg-wrapper {
+  display: inline-flex;
+  padding: 0px;
+  border-radius: 100%;
+  background-color: transparent;
+  transition: background-color 0.3s;
+}
+
+.svg-wrapper:hover {
+  border-radius: 100%;
+  background-color: #2d3a4b;
+}
+
+.svg-wrapper:hover .userbtn circle,
+.svg-wrapper:hover .userbtn path {
+  stroke: white;
+}
+
+.cartbtn {
+  border: 1px solid #2d3a4b;
+  border-radius: 50%;
+  padding: 4px 6px;
+}
+.searchbtn {
+  border: 1px solid #2d3a4b;
+  border-radius: 50%;
+  padding: 4px 6px;
+}
+.nav-menu li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  /* margin-top: 0px; */
+  cursor: pointer;
+}
+.nav-menu hr {
+  border: none;
+  width: 40px;
+  height: 3px;
+  border-radius: 10px;
+  background-color: #ffe115;
+}
+
+.nav-cart-count {
+  width: 22px;
+  height: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -10px;
+  margin-left: -20px;
+  border-radius: 11px;
+  font-size: 14px;
+  font-family: "Merriweather", serif;
+  color: white;
+  background: #2d3a4b;
+  border: 1px solid #2d3a4b;
+}
+/* .nav-cart-count:hover {
+  color: white;
+  background-color: #2d3a4b;
+} */
+.logout-button {
+  background-color: transparent;
+  border: 1px solid #2d3a4b;
+  color: #2d3a4b;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.logout-button:hover {
+  background-color: #2d3a4b;
+  color: #fff;
+}

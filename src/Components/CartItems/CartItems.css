@@ -1,0 +1,270 @@
+.cartItems {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ffffff;
+}
+
+.cartitems-format-main {
+  display: grid;
+  grid-template-columns: 2fr 3fr 1fr 1fr 1fr 0.5fr;
+  align-items: center;
+  background-color: #1a1a1a;
+  color: white;
+  padding: 15px 20px;
+  font-weight: bold;
+  border-radius: 4px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.cartitems-format {
+  display: grid;
+  grid-template-columns: 2fr 3fr 1fr 1fr 1fr 0.5fr;
+  align-items: center;
+  padding: 20px;
+  font-size: 16px;
+  color: #333;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.carticon-product-icon {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.small {
+  font-size: 12px;
+  display: inline-block;
+  vertical-align: top;
+  top: 1%;
+}
+.quantity-cart {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 0px !important;
+}
+
+.spinner {
+  display: flex;
+  width: 80px;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  overflow: hidden;
+  background-color: white;
+}
+
+.spinner input {
+  width: 100%;
+  border: none;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  outline: none;
+  pointer-events: none;
+  user-select: none;
+}
+
+.spinner-buttons {
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid #ccc;
+  background-color: white;
+}
+.fa-caret-up {
+  color: black;
+}
+.fa-caret-down {
+  color: black;
+}
+
+.spinner-buttons button {
+  height: 50%;
+  width: 25px;
+  border: none;
+  background: white;
+  font-size: 10px;
+  cursor: pointer;
+  line-height: 1;
+  padding: 0;
+  transition: background 0.2s;
+}
+
+.spinner-buttons button:hover {
+  background-color: #f0f0f0;
+}
+/* End of spinner styling */
+
+.cartItems hr {
+  border: none;
+  border-top: 1px solid #eee;
+  margin: 10px 0;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.cartitems-format-main p,
+.cartitems-format p {
+  margin: 0;
+}
+
+.cartitems-format img:last-child {
+  cursor: pointer;
+  filter: brightness(0) saturate(100%) invert(27%) sepia(100%) saturate(650%)
+    hue-rotate(340deg);
+  transition: transform 0.2s ease;
+}
+
+.cartitems-format img:last-child:hover {
+  transform: scale(1.1);
+}
+
+.cart-summary {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 10%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 80px;
+  margin-bottom: 0px;
+}
+.cart-discount {
+  height: 180px;
+  padding-bottom: 134px !important;
+}
+.cart-discount,
+.cart-total {
+  width: 48%;
+  background-color: #f6f6f6;
+  padding: 30px;
+  border-radius: 4px;
+}
+
+.cart-total {
+  background-color: white;
+  border: 2px solid #1a1a1a;
+  padding: 30px;
+}
+
+.underline {
+  width: 40px;
+  height: 5px;
+  background-color: #ffd700;
+  margin-top: 8px;
+  margin-bottom: 25px;
+  border-radius: 5px;
+}
+
+.discount-box {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.discount-box input {
+  flex: 1;
+  padding: 12px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.discount-box button {
+  padding: 12px 20px;
+  background-color: #1a1a1a;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.discount-actions {
+  display: flex;
+  margin-top: 73px;
+  gap: 20px;
+}
+
+.light-btn {
+  flex: 1;
+  padding: 12px;
+  background-color: #eee;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.total-details {
+  margin: 20px 0;
+}
+
+.item-line {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.total-cost {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.checkout-btn3 {
+  width: 100%;
+  padding: 15px;
+  background-color: #2d3a4b;
+  color: white;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+.checkout-btn3:hover {
+  color: #2d3a4b;
+  background-color: #ffd700;
+}
+
+/* Hero Section Styles */
+.img-section {
+  background-image: url("https://demos.webicode.com/html/Bo-shop-html/images/special-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.img-content {
+  color: white;
+  position: relative;
+  z-index: 2;
+}
+
+.img-content h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 0;
+}
+.hero-content {
+  position: relative;
+  z-index: 2; 
+  text-align: center;
+}
+
+.hero-cont {
+  font-weight: normal;
+  color: #252525;
+  font-family: "Poppins", sans-serif;
+}
+.widthfull {
+  width: 100%;
+}
+.mainsection {
+  padding: 40px 100px;
+}
+.bottom {
+  background-color: #f7f7f7 !important;
+}
