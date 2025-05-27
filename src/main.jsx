@@ -8,10 +8,10 @@ import "simple-line-icons/css/simple-line-icons.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import ShopContextProvider from "./Context/ShopContext.jsx";
 
-createRoot(document.getElementById("root")).render(
-  // <StrictMode>
-  <ShopContextProvider>
-    <App />
-  </ShopContextProvider>
-  // </StrictMode>
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <BrowserRouter basename="/Portfolio-Project-2/">
+      <App />
+    </BrowserRouter>
+  </React.StrictMode>
 );
