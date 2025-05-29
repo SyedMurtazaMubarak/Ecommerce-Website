@@ -7,7 +7,7 @@ import About from "./Pages/About";
 import Product from "./Pages/Product";
 import Cart from "./Pages/Cart";
 
-import LoginSignup from "./pages/LoginSignup";
+import LoginSignup from "../src/Pages/LoginSignup";
 import LogoCarousel from "../src/Components/LogoCarousel/LogoCarousel";
 import CartItems from "./Components/CartItems/CartItems";
 import CheckoutPage from "./Pages/Checkout/CheckoutPage";
